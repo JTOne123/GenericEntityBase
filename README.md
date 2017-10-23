@@ -1,5 +1,7 @@
 # Generic Entity Base
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=26TY9QLTDWDSE&lc=US&item_name=leandroberti&item_number=github&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
+
 This is a template for creating entity models.
 
 By using this template, we end up with the need to duplicate entity properties in view models that represent them.
@@ -50,10 +52,20 @@ public class MyEntity : Entity<int>
 
 ## Where to get this extension?
 
-You can install this extension direct from Nuget:
+You can install this extension direct from:
+
+[![Nuget](https://img.shields.io/badge/nuget-v1.1.0-blue.svg)](https://www.nuget.org/packages/LMB.GenericEntityBase/)
+
+Or instal with Package Manager Console
 
 ```C#
 Install-Package LMB.GenericEntityBase
 ```
 
 Or you can download this github project and copy the `Entity.cs` file, along with all interfaces files, direct into your project.
+
+# Donations
+
+**If you enjoy this work, please consider supporting me for developing and maintaining this (and others) templates.**
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=26TY9QLTDWDSE&lc=US&item_name=leandroberti&item_number=github&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
